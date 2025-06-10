@@ -1,0 +1,36 @@
+{
+  "name": "another-mutex",
+  "version": "0.0.0",
+  "description": "Another simple JavaScript mutex implementation using promises.",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": [
+    "mutex",
+    "lock",
+    "promise",
+    "javascript"
+  ],
+  "author": "Alvaro Fernandez ( domiot.org )",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domiot-io/another-mutex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domiot-io/another-mutex/issues"
+  },
+  "homepage": "https://github.com/domiot-io/another-mutex#readme",
+  "files": [
+    "index.js",
+    "test.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
